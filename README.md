@@ -71,16 +71,17 @@ button.addEventListener("click", () => {
 - I learned how to wriite a regex.
 
 ```js
- if (input.type === "email") {
-        emailPattern = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
-        if (!input.value.match(emailPattern)) {
-          input.classList.add("error-border-red");
-          input.nextElementSibling.textContent =
-            "Looks like this is not an email";
-          input.nextElementSibling.style.display = "block";
-        } else {
-          input.classList.remove("error-border");
-          input.nextElementSibling.style.display = "none";}
+if (input.type === "email") {
+  emailPattern = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
+  if (!input.value.match(emailPattern)) {
+    input.classList.add("error-border-red");
+    input.nextElementSibling.textContent = "Looks like this is not an email";
+    input.nextElementSibling.style.display = "block";
+  } else {
+    input.classList.remove("error-border");
+    input.nextElementSibling.style.display = "none";
+  }
+}
 ```
 
 ### Continued development
