@@ -90,5 +90,5 @@ My next step is learning React and continuing to build small projects to gain mo
 
 ## Author
 
-- Website - [Add your name here](https://dawudasasfeh.github.io)
+- Website - [Dawud Alasasfeh](https://dawudasasfeh.github.io)
 - Frontend Mentor - [@dawudasasfeh](https://www.frontendmentor.io/profile/dawudasasfeh)
